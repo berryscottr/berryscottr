@@ -20,4 +20,4 @@ Hello there (world)
 - Terraform <img src="https://png2.cleanpng.com/sh/7210c4a09eef9666e3c6a0239d695eea/L0KzQYm3VcI1N5J9f5H0aYP2gLBuTgRmeqNmftH7bT3rccTvifNweqEyi9HvdIfkgra0hPVxdJDAhdd3dD3sfrf5ggN1eqZoRadrMEe7Q7W5UcFnbJY4RqQ8OUK5SYSAUcUzP2M2UaMANEC6Q4i1kP5o/kisspng-terraform-hashicorp-software-deployment-infrastruc-5b0783d211fde3.2392693715272191540737.png" alt="Terraform" width="25"/>
 - Packer <img src="https://png2.cleanpng.com/sh/7210c4a09eef9666e3c6a0239d695eea/L0KzQYm3VcI1N5J9f5H0aYP2gLBuTgRmeqNmftH7bT3rccTvifNweqEyi9HvdIfkgra0hPVxdJDAhdd3dD3sfrf5ggN1eqZoRadrMEe7Q7W5UcFnbJY4RqQ8OUK5SYSAUcUzP2M2UaMANEC6Q4i1kP5o/kisspng-terraform-hashicorp-software-deployment-infrastruc-5b0783d211fde3.2392693715272191540737.png" alt="Packer" width="25"/>
 
-<img src="https://www.clipartmax.com/png/middle/111-1113243_gopher-star-wars-by-ashley-mcnamara-star-wars-gopher-golang.png" alt="Gopher Duel" width="250"/>
+<img src="https://www.clipartmax.com/png/full/111-1113243_gopher-star-wars-by-ashley-mcnamara-star-wars-gopher-golang.png" alt="Gopher Duel" width="250"/>

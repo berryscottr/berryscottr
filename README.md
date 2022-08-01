@@ -4,8 +4,8 @@ Hello there (world)
 
 **About me**
 
+- Masters of Data Science Graduate at Indiana University - Bloomington
 - Industrial Engineering Graduate at Georgia Institute of Technology
-- Masters of Data Science Candidate at Indiana University - Bloomington
 - Systems Engineer II at The Home Depot
 
 **Languages & Tools**

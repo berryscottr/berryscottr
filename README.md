@@ -9,11 +9,12 @@ Hello there (world)
 - Systems Engineer II at The Home Depot
 
 **Top Projects**
-![Magic 8Ball](https://github.com/berryscottr/magic-8ball) is a Discord Bot that optimizes APA billiards play, fully functional and live
-![Spotify Data Visualization](https://github.com/berryscottr/DataVisualization/blob/main/spotify.ipynb) analyzes metadata of my Spotify streaming history and visualizes (download to view all visualizations as some do not render)
-![Predicting APA Matchups](https://github.com/berryscottr/apa-rankings/blob/master/miniproject_scorberr.ipynb) is a classification modeler that predicts match results (W/L not expeceted points) for APA billiards play, this project served as the inspiration for the ![Magic 8Ball](https://github.com/berryscottr/magic-8ball)
-![Palantir Chat-Orb](https://github.com/berryscottr/palantir/blob/master/palantir.ipynb) is a chatbot for discussing Lord of the Rings trained on book data
-![NFL Ref Sentiment Analysis](https://github.com/berryscottr/nfl_ref_sentiment) analyze Reddit game threads to observe sentiment towards refereeing across the course of a game discussion thread
+
+- ![Magic 8Ball](https://github.com/berryscottr/magic-8ball) is a Discord Bot that optimizes APA billiards play, fully functional and live
+- ![Spotify Data Visualization](https://github.com/berryscottr/DataVisualization/blob/main/spotify.ipynb) analyzes metadata of my Spotify streaming history and visualizes (download to view all visualizations as some do not render)
+- ![Palantir Chat-Orb](https://github.com/berryscottr/palantir/blob/master/palantir.ipynb) is a chatbot for discussing Lord of the Rings trained on book data
+- ![NFL Ref Sentiment Analysis](https://github.com/berryscottr/nfl_ref_sentiment) analyze Reddit game threads to observe sentiment towards refereeing across the course of a game discussion thread
+- ![Predicting APA Matchups](https://github.com/berryscottr/apa-rankings/blob/master/miniproject_scorberr.ipynb) uses two classification models that predict match results (W/L not expeceted points) for APA billiards play, this project served as the inspiration for the ![Magic 8Ball](https://github.com/berryscottr/magic-8ball)
 
 **Languages & Tools**
 - Python <img src="https://png2.cleanpng.com/sh/e1643063fc194f286078750cd7a50a2a/L0KzQYm3U8IxN6J9iZH0aYP2gLBuTfFvb51qReZueISwg8r0gv9tNZN3edDtLXB3eLb5TgB6fJl0hp8AYXKzc4GCgslmaWJmT5C8Mki5SYOAVcE2OmI6S6U5OEO5RIqBTwBvbz==/kisspng-angle-text-symbol-brand-other-python-5ab0c09b9ea1a7.3286927515215330836498.png" alt="Python" width="30"/>

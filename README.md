@@ -8,6 +8,13 @@ Hello there (world)
 - Industrial Engineering Graduate at Georgia Institute of Technology
 - Systems Engineer II at The Home Depot
 
+**Top Projects**
+![Magic 8Ball](https://github.com/berryscottr/magic-8ball) is a Discord Bot that optimizes APA billiards play, fully functional and live
+![Spotify Data Visualization](https://github.com/berryscottr/DataVisualization/blob/main/spotify.ipynb) analyzes metadata of my Spotify streaming history and visualizes (download to view all visualizations as some do not render)
+![Predicting APA Matchups](https://github.com/berryscottr/apa-rankings/blob/master/miniproject_scorberr.ipynb) is a classification modeler that predicts match results (W/L not expeceted points) for APA billiards play, this project served as the inspiration for the ![Magic 8Ball](https://github.com/berryscottr/magic-8ball)
+![Palantir Chat-Orb](https://github.com/berryscottr/palantir/blob/master/palantir.ipynb) is a chatbot for discussing Lord of the Rings trained on book data
+![NFL Ref Sentiment Analysis](https://github.com/berryscottr/nfl_ref_sentiment) analyze Reddit game threads to observe sentiment towards refereeing across the course of a game discussion thread
+
 **Languages & Tools**
 - Python <img src="https://png2.cleanpng.com/sh/e1643063fc194f286078750cd7a50a2a/L0KzQYm3U8IxN6J9iZH0aYP2gLBuTfFvb51qReZueISwg8r0gv9tNZN3edDtLXB3eLb5TgB6fJl0hp8AYXKzc4GCgslmaWJmT5C8Mki5SYOAVcE2OmI6S6U5OEO5RIqBTwBvbz==/kisspng-angle-text-symbol-brand-other-python-5ab0c09b9ea1a7.3286927515215330836498.png" alt="Python" width="30"/>
 - Golang <img src="https://png2.cleanpng.com/sh/05096ccd0d91e5286628fa17fe87b5b7/L0KzQYm3V8MyN6RnkZH0aYP2gLBuTfdweJlqip9tb3PudcO0gB9ueKZ5feQ2cILyd8Pojf1qdpgye954aoX1dX68gsYxapRnetZrMEnmRXA4U8A4QWQ5SKMAM0OzRoe7Usc5QWg3RuJ3Zx==/kisspng-gopher-docker-computer-programming-clojure-5b60bcbbdb09c5.1307934015330664278972.png" alt="Golang" width="25"/>

@@ -1,7 +1,7 @@
 # SCOTT FOXLEY-BERRY
 
 Atlanta, Georgia 30317
-770-262-3313 • [berryscottr@gmail.com](mailto:berryscottr@gmail.com) • github.com/berryscottr
+[berryscottr@gmail.com](mailto:berryscottr@gmail.com) • github.com/berryscottr
 
 # PROFESSIONAL SUMMARY
 

@@ -1,11 +1,11 @@
 # SCOTT FOXLEY-BERRY
 
 Atlanta, Georgia 30317
-[berryscottr@gmail.com](mailto:berryscottr@gmail.com) • github.com/berryscottr
+[berryscottr@gmail.com](mailto:berryscottr@gmail.com) • github.com/berryscottr • linkedin.com/in/scott-foxley-berry-44685694/
 
 # PROFESSIONAL SUMMARY
 
-Backend and Data Engineer with 7+ years of experience designing and operating scalable software systems, data pipelines, and cloud-native infrastructure. Strong expertise in Go, Python, SQL, PostgreSQL, BigQuery, Kubernetes, Docker, and CI/CD automation. Experienced building production APIs, ETL workflows, event-driven systems, observability platforms, and developer tooling supporting thousands of services and billions of daily requests. Proven ability to independently own projects from requirements gathering through deployment and operational support.
+Backend and Data Engineer with 8 years of experience designing and operating scalable software systems, data pipelines, and cloud-native infrastructure. Strong expertise in Go, Python, SQL, PostgreSQL, BigQuery, Kubernetes, Docker, and CI/CD automation. Experienced building production APIs, ETL workflows, event-driven systems, observability platforms, and developer tooling supporting thousands of services and billions of daily requests. Proven ability to independently own projects from requirements gathering through deployment and operational support.
 
 # TECHNICAL SKILLS
 

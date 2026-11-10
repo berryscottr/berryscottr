@@ -1,0 +1,11 @@
+{
+  "name": "resume-pdf",
+  "private": true,
+  "type": "module",
+  "description": "Builds resume/RESUME.pdf from resume/RESUME.md",
+  "scripts": { "build": "node build.mjs" },
+  "dependencies": {
+    "marked": "15.0.12",
+    "puppeteer-core": "23.11.1"
+  }
+}

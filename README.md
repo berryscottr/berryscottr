@@ -1,31 +1,101 @@
-![Hello there](https://c.tenor.com/EJ5ezT8nTdoAAAAC/hello-there-obi-wan.gif)
+<a href="https://berryscottr.github.io/berryscottr/">
+  <img src="docs/assets/banner.png" alt="Scott Foxley-Berry: Backend & Data Engineer, Atlanta GA" width="100%">
+</a>
 
-Hello there (world)
+<p align="center">
+  <a href="https://berryscottr.github.io/berryscottr/"><img src="https://img.shields.io/badge/Portfolio-berryscottr.github.io-0ea5e9?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio"></a>
+  <a href="resume/RESUME.pdf"><img src="https://img.shields.io/badge/Resume-PDF-10b981?style=for-the-badge&logo=readdotcv&logoColor=white" alt="Resume"></a>
+  <a href="https://www.linkedin.com/in/scott-foxley-berry-44685694/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:berryscottr@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20hello-f59e0b?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+</p>
 
-**About me**
+<p align="center"><i>Hello there.</i> I build backend systems that stay up and data work that holds up under scrutiny.</p>
 
-- Masters of Data Science Graduate at Indiana University - Bloomington
-- Industrial Engineering Graduate at Georgia Institute of Technology
-- Systems Engineer II at The Home Depot
+|  |  |  |  |
+|:---:|:---:|:---:|:---:|
+| **8 years**<br><sub>backend, data & platform engineering</sub> | **2B+ requests/day**<br><sub>across 4,000+ services at The Home Depot</sub> | **M.S. Data Science**<br><sub>Indiana University · ML & cybersecurity</sub> | **B.S. Industrial Eng.**<br><sub>Georgia Tech · best senior design project</sub> |
 
-**Top Projects**
+---
 
-- ![Magic 8Ball](https://github.com/berryscottr/magic-8ball) is a Discord Bot that optimizes APA billiards play, fully functional and live
-- ![Spotify Data Visualization](https://github.com/berryscottr/DataVisualization/blob/main/spotify.ipynb) analyzes metadata of my Spotify streaming history and visualizes (download to view all visualizations as some do not render)
-- ![Palantir Chat-Orb](https://github.com/berryscottr/palantir/blob/master/palantir.ipynb) is a chatbot for discussing Lord of the Rings trained on book data
-- ![NFL Ref Sentiment Analysis](https://github.com/berryscottr/nfl_ref_sentiment) analyze Reddit game threads to observe sentiment towards refereeing across the course of a game discussion thread
-- ![Predicting APA Matchups](https://github.com/berryscottr/apa-rankings/blob/master/miniproject_scorberr.ipynb) uses two classification models that predict match results (W/L not expeceted points) for APA billiards play, this project served as the inspiration for the ![Magic 8Ball](https://github.com/berryscottr/magic-8ball)
+## 🚀 Featured work
 
-**Languages & Tools**
-- Python <img src="https://png2.cleanpng.com/sh/e1643063fc194f286078750cd7a50a2a/L0KzQYm3U8IxN6J9iZH0aYP2gLBuTfFvb51qReZueISwg8r0gv9tNZN3edDtLXB3eLb5TgB6fJl0hp8AYXKzc4GCgslmaWJmT5C8Mki5SYOAVcE2OmI6S6U5OEO5RIqBTwBvbz==/kisspng-angle-text-symbol-brand-other-python-5ab0c09b9ea1a7.3286927515215330836498.png" alt="Python" width="30"/>
-- Golang <img src="https://png2.cleanpng.com/sh/05096ccd0d91e5286628fa17fe87b5b7/L0KzQYm3V8MyN6RnkZH0aYP2gLBuTfdweJlqip9tb3PudcO0gB9ueKZ5feQ2cILyd8Pojf1qdpgye954aoX1dX68gsYxapRnetZrMEnmRXA4U8A4QWQ5SKMAM0OzRoe7Usc5QWg3RuJ3Zx==/kisspng-gopher-docker-computer-programming-clojure-5b60bcbbdb09c5.1307934015330664278972.png" alt="Golang" width="25"/>
-- Bash <img src="https://png2.cleanpng.com/sh/0a0d1d74e656a69312e6b29cbe27072c/L0KzQYm3U8IxN5NpfZH0aYP2gLBuTfNqepRxfZ9rcnHxdH76mf1jd50yftH3dD3kgMG0lPVzdZpzed42NXHlQLbphfVmPWJqeag3NUW1R4m7UsEyPWM2TaY9MUe3SYSBVb5xdpg=/kisspng-circle-brand-symbol-font-app-terminal-5ab0ebeee51ea6.5527842115215441749385.png" alt="Bash" width="30"/>
-- Scala <img src="https://png2.cleanpng.com/sh/06e9960681a428d381dd2bcd0057466c/L0KzQYm3VsIxN5N1e5H0aYP2gLBuTgNkaZ1mReJ7b3f1cb70if5oNZ1mhtlAYXfoPcXCkPUue5JrfeZELXrkhrL6gCJqeKUyTdQ7YUDmQYiCUcBiQGEzSKk6Mka7SYq4VcI6PGk3Sqg8NUm3QXB3jvc=/kisspng-scala-programming-language-type-safety-javascript-5b2a0c17910a80.0712689915294822635941.png" alt="Scala" width="25"/>
-- Rust <img src="https://rustacean.net/assets/rustacean-flat-happy.png" alt="Rust" width="30"/>
-- Docker <img src="https://png2.cleanpng.com/sh/09cf702fc95dc43a3b1865cc82e23632/L0KzQYm3VcI4N6dqipH0aYP2gLBuTfRwa5xqip9waYTrhbO0jv9lbV5vi592b37qf7XpTfNwdaF6jNd7LYPydsXAggJmNWZnSNM8NHHpSYG7UBY2Nmc3Sqo8MUW0QYa5V8M6PWY1S6cEMEmxgLBu/kisspng-docker-github-node-js-mongodb-computer-software-5b0a34af9043f5.6228315115273955035909.png" alt="Docker" width="30"/>
-- Kubernetes <img src="https://png2.cleanpng.com/sh/e512d0bc3146c1800c38319979a96e3c/L0KzQYm3VME3N6hvfZH0aYP2gLBuTft2apZ3htd9ZYOwdLFqiBVzNZh0h9l1ZT3mfLF8hL1xdJJ5ftH7bT3vf7j2Tfx5a15oh9D9YXnxdcO0VfFlPGVoTddtZnXndoW1V8I0OGoAT6g6NUK2SIe5VsIzQWI8SpD5bne=/kisspng-kubernetes-docker-google-cloud-platform-logo-lxc-container-5ad44c5edfedf4.7230997615238626229172.png" alt="Kubernetes" width="25"/>
-- Ansible <img src="https://png2.cleanpng.com/sh/145d0cb30f6dbd876c37225e97a42b70/L0KzQYm3VME0N6pviZH0aYP2gLBuTfFve5pnhNc2Z0KwhLbqiP5wdJDskZ9wcnB4gH75hfQucJJ5RdH7Z3HxecvolPlwdl5oRd9qZ3nmPbTwkvNtbV46edY5N0C0SInqgsM6O189S6gDOEG7RYK8UsM3OGo7SqYAN0a2PsH1h5==/kisspng-ansible-g2-technology-group-red-hat-organization-c-magic-circle-5ad070188cb393.8368818515236096245763.png" alt="Ansible" width="25"/>
-- Terraform <img src="https://png2.cleanpng.com/sh/7210c4a09eef9666e3c6a0239d695eea/L0KzQYm3VcI1N5J9f5H0aYP2gLBuTgRmeqNmftH7bT3rccTvifNweqEyi9HvdIfkgra0hPVxdJDAhdd3dD3sfrf5ggN1eqZoRadrMEe7Q7W5UcFnbJY4RqQ8OUK5SYSAUcUzP2M2UaMANEC6Q4i1kP5o/kisspng-terraform-hashicorp-software-deployment-infrastruc-5b0783d211fde3.2392693715272191540737.png" alt="Terraform" width="25"/>
-- Packer <img src="https://png2.cleanpng.com/sh/7210c4a09eef9666e3c6a0239d695eea/L0KzQYm3VcI1N5J9f5H0aYP2gLBuTgRmeqNmftH7bT3rccTvifNweqEyi9HvdIfkgra0hPVxdJDAhdd3dD3sfrf5ggN1eqZoRadrMEe7Q7W5UcFnbJY4RqQ8OUK5SYSAUcUzP2M2UaMANEC6Q4i1kP5o/kisspng-terraform-hashicorp-software-deployment-infrastruc-5b0783d211fde3.2392693715272191540737.png" alt="Packer" width="25"/>
+Both flagship projects are private repos. Each one has a public demo you can open right now.
 
-<img src="https://www.clipartmax.com/png/full/111-1113243_gopher-star-wars-by-ashley-mcnamara-star-wars-gopher-golang.png" alt="Gopher Duel" width="250"/>
+### 🎱 Magic 8-Ball: match-night app for APA pool league teams
+
+<a href="https://magic-8ball.up.railway.app/demo"><img src="docs/assets/m8b.png" alt="Magic 8-Ball: desktop and phone views of the live demo" width="100%"></a>
+
+<p>
+  <a href="https://magic-8ball.up.railway.app/demo"><img src="https://img.shields.io/badge/▶%20Try%20the%20live%20demo-magic--8ball.up.railway.app-22c55e?style=flat-square" alt="Live demo"></a>
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go">
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL">
+  <img src="https://img.shields.io/badge/htmx-3366CC?style=flat-square&logo=htmx&logoColor=white" alt="htmx">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
+  <img src="https://img.shields.io/badge/Railway-0B0D0E?style=flat-square&logo=railway&logoColor=white" alt="Railway">
+  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions">
+</p>
+
+Captains share one link per team. Players tap their name once, answer In, Late, or Out, and see a legal lineup form as answers arrive. One answer covers every team a player has that night. Captains sign in with their APA account to get the full board, opponent rosters, and match-night strategy tools. Rosters, skill levels, and schedules sync from the APA every 15 minutes.
+
+- **Production service, owned end to end:** a single Go binary that runs the web app, the background APA sync, and the demo, backed by Postgres with embedded migrations. It deploys to Railway with separate dev and production environments.
+- **Built to be safe on the public internet:** captains sign in with APA credentials, but passwords are never stored. Session tokens are kept only as hashes. The app uses a strict CSP with no inline script, same-origin checks on every write, per-IP rate limits, and parameterized SQL only.
+- **CI is the deploy gate:** gofmt, vet, staticcheck, race-enabled tests against a real Postgres with a coverage floor, govulncheck, a Docker build, and a headless-Chrome smoke test. Railway deploys only after CI passes, and CI also enforces the branching policy.
+- **Evolved, not rewritten:** it started in 2022 as a Python Discord bot and became a Go web app. The original formulas were ported and parity-tested against the old outputs, and the image shrank from Python + Chromium to a ~29 MB distroless binary. 21 architecture decision records document why things are the way they are.
+
+### 📈 Pairs Engine: market-neutral statistical-arbitrage research platform
+
+<a href="https://berryscottr.github.io/berryscottr/quant/"><img src="docs/assets/quant.png" alt="Pairs Engine: interactive research results site" width="100%"></a>
+
+<p>
+  <a href="https://berryscottr.github.io/berryscottr/quant/"><img src="https://img.shields.io/badge/▶%20Explore%20the%20results-interactive%20site-3b82f6?style=flat-square" alt="Results site"></a>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Polars-CD792C?style=flat-square&logo=polars&logoColor=white" alt="Polars">
+  <img src="https://img.shields.io/badge/NumPy%20%2B%20Numba-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy + Numba">
+  <img src="https://img.shields.io/badge/statsmodels-4051b5?style=flat-square" alt="statsmodels">
+  <img src="https://img.shields.io/badge/Astro-BC52EE?style=flat-square&logo=astro&logoColor=white" alt="Astro">
+</p>
+
+Every week the engine scans 1,000 to 3,000 liquid US stocks for pairs whose prices are cointegrated. It trades their temporary divergences in a minute-bar simulator with realistic costs. Above all, it's an exercise in **not fooling yourself** with a backtest.
+
+- **Whole-market discovery:** vectorized Engle-Granger and ADF tests, verified against statsmodels, run over the market every week. Data comes from Alpaca (SIP minute bars) and SEC EDGAR, stored in Parquet with resumable, validated ingest.
+- **Honest validation:** a walk-forward design with no look-ahead (fills land on the next bar), a tune / validation / holdout split, and a trial ledger covering all **4,699 configurations** tried. That ledger feeds a Deflated Sharpe ratio and the probability of backtest overfitting (PBO). Parameters were chosen as interior points of profitable plateaus, never as the single best point.
+- **A pre-registered holdout, reported straight:** the final year was read once, against pass bands committed in advance. The result (excess Sharpe 0.16, "weak but positive") is published as-is, not tuned away.
+- **Engineering discipline:** results are bit-identical for any worker count, invariant checks run on every result path, every known pitfall has a guard and a test (140+ tests), and every derived artifact carries a provenance fingerprint.
+
+<sub>Simulated research results, not live trading or an offering. The codebase is private; the results site shows aggregates only.</sub>
+
+---
+
+## 🏢 At The Home Depot (Systems Engineer II · 2020 to present)
+
+| Project | What I built |
+|---|---|
+| **Watchdog** | A production Go service that decides traffic advertisement and health validation for thousands of services, using rule-based and anomaly-detection health evaluation. It exposes REST/OpenAPI endpoints and Prometheus metrics. |
+| **Bifrost Bot** | A Go Slack app on GKE that automates infrastructure promotions, health reporting, documentation discovery, and escalations. |
+| **Infra validation** | A centralized smoke-testing platform (Go, Python, GitHub Actions) that checks deployment readiness, certificate expiry, and documentation quality. |
+| **Migration ETL** | Python and BigQuery pipelines that use NLP and ML to classify service ownership and drive a proxy-architecture migration. |
+
+<sub>Earlier: Implementation Engineer at <b>Featurespace</b> (fraud-detection platforms on AWS with Kafka, Elasticsearch, and MongoDB) and at <b>Noble Systems</b> (PostgreSQL, Linux, deployment automation). Full details in the <a href="resume/RESUME.md">resume</a>.</sub>
+
+## 🧰 Toolbox
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=go,py,rust,scala,bash,postgres,mongodb,elasticsearch,kafka,docker&perline=10" alt="Languages and data stores"><br>
+  <img src="https://skillicons.dev/icons?i=kubernetes,gcp,aws,terraform,ansible,githubactions,prometheus,grafana,linux,astro&perline=10" alt="Cloud, infrastructure and observability">
+</p>
+
+**Also:** BigQuery · Spark · Hadoop · OpenAPI · htmx · polars · numba · statsmodels · NLP · ML classification · time-series statistics · integer programming · AI-assisted engineering (agent-ready repos with per-package guides and project skills)
+
+## 🗂️ More projects
+
+| Project | About |
+|---|---|
+| [apa-rankings](https://github.com/berryscottr/apa-rankings) | Classification models that predict APA match results. This was the seed of Magic 8-Ball. |
+| [nfl_ref_sentiment](https://github.com/berryscottr/nfl_ref_sentiment) | Reddit game-thread NLP: how win-probability swings change sentiment toward referees. |
+| [palantir](https://github.com/berryscottr/palantir) | A Lord of the Rings chatbot trained on the books. |
+| [DataVisualization](https://github.com/berryscottr/DataVisualization/blob/main/spotify.ipynb) | Visual analysis of my Spotify streaming history. |
+| [Go-Thats-A-Baseball](https://github.com/berryscottr/Go-Thats-A-Baseball) | Machine learning in Go, aimed at beating Vegas MLB lines. |
+| [cfb-rankings-superleague-edition](https://github.com/berryscottr/cfb-rankings-superleague-edition) | "The definitive CFB rankings." |
+| [pure-pazaak](https://github.com/berryscottr/pure-pazaak) | The Pazaak card game, written in Rust. |
+
+<p align="center"><sub>Atlanta, GA · swimmer, billiards team captain, Trees Atlanta volunteer</sub></p>

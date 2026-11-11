@@ -67,6 +67,13 @@ Backend and platform engineer with 8 years of experience building and operating 
 - Made CI the deploy gate: staticcheck, race-enabled tests against Postgres with a coverage floor, govulncheck, Docker builds, and headless-Chrome smoke tests, with separate dev and production environments
 - Migrated it from a Python Discord bot to a ~29 MB distroless Go service, with parity tests against the original outputs and 21 architecture decision records
 
+### Shelved — daily word puzzle for BookTok readers | 2026 – Present
+
+*Go, PostgreSQL, JavaScript, Claude Code, Docker, Railway* · Live: [shelved.up.railway.app](https://shelved.up.railway.app)
+
+- Launched and run a free daily puzzle game (Go, Postgres, framework-free front end, no player accounts or trackers). A Claude Code skill drafts 30-day puzzle batches, CI validates each batch, and rejecting a day on the dev site reschedules the rest
+- Gated every deploy on CI (staticcheck, race tests on Postgres, coverage floor, govulncheck, headless-Chrome smoke tests), with a strict CSP, a dev-only admin proven absent from production by tests, and 20 decision records
+
 ### Pairs Engine — statistical-arbitrage research platform | 2026 – Present
 
 *Python, Polars, NumPy, Numba, statsmodels, Parquet, Astro* · Results: [berryscottr.github.io/berryscottr/quant](https://berryscottr.github.io/berryscottr/quant/)

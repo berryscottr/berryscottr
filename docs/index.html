@@ -179,6 +179,7 @@ footer{text-align:center;color:var(--muted);font-size:13.5px;padding:24px 0 48px
       <p class="lede">Eight years of production backend, data, and platform engineering. Today that means Go services handling 2 billion requests a day at The Home Depot. On my own time it means shipping full products and running research that's built to survive scrutiny.</p>
       <div class="ctas">
         <a class="btn primary" href="https://magic-8ball.up.railway.app/demo">▶ Try Magic 8-Ball</a>
+        <a class="btn" href="https://shelved.up.railway.app">📚 Play Shelved</a>
         <a class="btn" href="quant/">📈 Explore Pairs Engine</a>
         <a class="btn" href="https://github.com/berryscottr">GitHub ↗</a>
       </div>
@@ -197,12 +198,12 @@ footer{text-align:center;color:var(--muted);font-size:13.5px;padding:24px 0 48px
       <h2>Strengths, with receipts</h2>
       <p class="sub">Each strength below points to something you can open or verify.</p>
       <div class="cards">
-        <div class="card"><div class="ico">⚙️</div><h3>Production Go backends</h3><p>APIs and services that make live traffic decisions at enterprise scale, with OpenAPI contracts, Prometheus metrics, and incident ownership.</p><div class="proof">Watchdog · Bifrost · Magic 8-Ball</div></div>
+        <div class="card"><div class="ico">⚙️</div><h3>Production Go backends</h3><p>APIs and services that make live traffic decisions at enterprise scale, with OpenAPI contracts, Prometheus metrics, and incident ownership.</p><div class="proof">Watchdog · Bifrost · Magic 8-Ball · Shelved</div></div>
         <div class="card"><div class="ico">📐</div><h3>Statistical rigor</h3><p>Walk-forward testing, pre-registration, Deflated Sharpe, and overfitting probability. I report results honestly, including the disappointing ones.</p><div class="proof">Pairs Engine · M.S. Data Science</div></div>
-        <div class="card"><div class="ico">🚢</div><h3>End-to-end ownership</h3><p>From the user's problem through data model, security, CI/CD, hosting, and documentation to a live product that people actually use.</p><div class="proof">Magic 8-Ball, in use since 2022</div></div>
-        <div class="card"><div class="ico">🛡️</div><h3>Reliability &amp; CI/CD</h3><p>CI as the deploy gate: race-enabled tests against real databases, vulnerability scans, browser smoke tests, and branch policies enforced in code.</p><div class="proof">GitHub Actions · Railway · GKE</div></div>
+        <div class="card"><div class="ico">🚢</div><h3>End-to-end ownership</h3><p>From the user's problem through data model, security, CI/CD, hosting, and documentation to a live product that people actually use.</p><div class="proof">Magic 8-Ball, in use since 2022 · Shelved, live daily</div></div>
+        <div class="card"><div class="ico">🛡️</div><h3>Reliability &amp; CI/CD</h3><p>CI as the deploy gate: race-enabled tests against real databases, vulnerability scans, browser smoke tests, and branch policies enforced in code.</p><div class="proof">GitHub Actions · Railway · GKE · Shelved CI</div></div>
         <div class="card"><div class="ico">🧪</div><h3>Data engineering</h3><p>Resumable, validated ingestion pipelines; Parquet and BigQuery; NLP and ML classification applied to messy operational data.</p><div class="proof">Migration ETL · market-data ingest</div></div>
-        <div class="card"><div class="ico">🤖</div><h3>AI-assisted engineering</h3><p>Repos built so coding agents can work safely: per-package guides, architecture decision records, project skills, and hard guardrails.</p><div class="proof">Both flagship projects</div></div>
+        <div class="card"><div class="ico">🤖</div><h3>AI-assisted engineering</h3><p>Repos built so coding agents can work safely: per-package guides, architecture decision records, project skills, and hard guardrails. AI drafts, people check, CI enforces.</p><div class="proof">All three flagship projects · Shelved puzzle skill</div></div>
       </div>
     </div>
   </section>
@@ -211,7 +212,7 @@ footer{text-align:center;color:var(--muted);font-size:13.5px;padding:24px 0 48px
     <div class="wrap">
       <div class="kicker">Featured work</div>
       <h2>Private code, public demos</h2>
-      <p class="sub">Both flagship repos are private. You can still use the live app and explore the research results yourself.</p>
+      <p class="sub">All three flagship repos are private. You can still use the live apps, play today's puzzle, and explore the research results yourself.</p>
 
       <article class="project">
         <a class="shot" href="https://magic-8ball.up.railway.app/demo"><img src="assets/m8b.png" alt="Magic 8-Ball live demo on desktop and phone"></a>
@@ -231,6 +232,23 @@ footer{text-align:center;color:var(--muted);font-size:13.5px;padding:24px 0 48px
       </article>
 
       <article class="project flip">
+        <a class="shot" href="https://shelved.up.railway.app"><img src="assets/shelved.png" alt="Shelved daily puzzle on desktop and phone" loading="lazy"></a>
+        <div>
+          <span class="badge"><span class="dot" style="background:#e0a458;box-shadow:0 0 0 4px rgba(224,164,88,.22)"></span>Live · new puzzle daily</span>
+          <h3>📚 Shelved</h3>
+          <p>A free daily word puzzle for BookTok readers. Sixteen tiles, usually character names, hide four groups of four that only readers can sort. One puzzle a day for everyone, no accounts, and an emoji shelf to share. Live since November 10, 2026.</p>
+          <ul>
+            <li><b>AI pipeline, human editor:</b> a Claude Code skill writes 30-day puzzle batches from BookTok trends; CI validates them, I fact-check on a dev site, and a rejected day slides the rest up</li>
+            <li><b>Small and fast:</b> one Go binary and Postgres; plain ES modules with no framework, build step, or web fonts; hosting settings as code</li>
+            <li><b>Private by design:</b> no player accounts, cookies, or trackers; only a random device ID and result are stored; strict CSP; the admin is tested never to exist in production</li>
+            <li><b>CI gates every deploy:</b> branch policy, staticcheck, race tests on Postgres, coverage floor, govulncheck, headless-Chrome smoke test, and 20 ADRs</li>
+          </ul>
+          <div class="stack"><span>Go</span><span>PostgreSQL</span><span>ES modules</span><span>Claude Code</span><span>Docker</span><span>Railway</span><span>GitHub Actions</span></div>
+          <div class="ctas"><a class="btn primary" href="https://shelved.up.railway.app">▶ Play today's puzzle</a></div>
+        </div>
+      </article>
+
+      <article class="project">
         <a class="shot" href="quant/"><img src="assets/quant.png" alt="Pairs Engine interactive research results site"></a>
         <div>
           <span class="badge" style="--x:1"><span class="dot" style="background:#3b82f6;box-shadow:0 0 0 4px rgba(59,130,246,.2)"></span>Research complete · simulated</span>

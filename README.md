@@ -19,7 +19,7 @@
 
 ## 🚀 Featured work
 
-Both flagship projects are private repos. Each one has a public demo you can open right now.
+All three flagship projects are private repos. Each one has a public demo you can open right now.
 
 ### 🎱 Magic 8-Ball: match-night app for APA pool league teams
 
@@ -41,6 +41,27 @@ Captains share one link per team. Players tap their name once, answer In, Late, 
 - **Built to be safe on the public internet:** captains sign in with APA credentials, but passwords are never stored. Session tokens are kept only as hashes. The app uses a strict CSP with no inline script, same-origin checks on every write, per-IP rate limits, and parameterized SQL only.
 - **CI is the deploy gate:** gofmt, vet, staticcheck, race-enabled tests against a real Postgres with a coverage floor, govulncheck, a Docker build, and a headless-Chrome smoke test. Railway deploys only after CI passes, and CI also enforces the branching policy.
 - **Evolved, not rewritten:** it started in 2022 as a Python Discord bot and became a Go web app. The original formulas were ported and parity-tested against the old outputs, and the image shrank from Python + Chromium to a ~29 MB distroless binary. 21 architecture decision records document why things are the way they are.
+
+### 📚 Shelved: a daily word puzzle for BookTok readers
+
+<a href="https://shelved.up.railway.app"><img src="docs/assets/shelved.png" alt="Shelved: desktop and phone views of the live game" width="100%"></a>
+
+<p>
+  <a href="https://shelved.up.railway.app"><img src="https://img.shields.io/badge/▶%20Play%20today's%20puzzle-shelved.up.railway.app-e0a458?style=flat-square" alt="Play Shelved"></a>
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go">
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL">
+  <img src="https://img.shields.io/badge/JavaScript%20(no%20framework)-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="Vanilla JavaScript">
+  <img src="https://img.shields.io/badge/Claude%20Code-D97757?style=flat-square&logo=claude&logoColor=white" alt="Claude Code">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
+  <img src="https://img.shields.io/badge/Railway-0B0D0E?style=flat-square&logo=railway&logoColor=white" alt="Railway">
+</p>
+
+A free daily puzzle: sixteen tiles, usually character names, hide four groups of four that only readers can sort. One puzzle a day, the same for everyone, new at midnight Eastern. No accounts; you share your result as an emoji shelf. Live since November 10, 2026.
+
+- **AI content pipeline with a human editor:** a Claude Code skill writes puzzles in 30-day batches that follow what's trending on BookTok. A validator checks every batch in CI, I fact-check on a dev site, and rejecting a puzzle slides the later days up automatically.
+- **Small and fast on purpose:** one Go binary serves the game, the play API, and a dev-only admin on Postgres. The browser side is plain ES modules with no framework, no build step, and no web fonts. Hosting settings live in code.
+- **Private by design:** no player accounts, cookies, or trackers. Streaks stay on the device, and the server keeps only a random device ID and the result. A strict CSP allows no inline code, and tests prove the admin never exists in production.
+- **Same release discipline as my day job:** CI enforces the branch policy and runs staticcheck, race tests against Postgres with a coverage floor, game-logic tests, govulncheck, a Docker build, and a headless-Chrome smoke test before anything deploys. 20 decision records explain the design.
 
 ### 📈 Pairs Engine: market-neutral statistical-arbitrage research platform
 
@@ -84,7 +105,7 @@ Every week the engine scans 1,000 to 3,000 liquid US stocks for pairs whose pric
   <img src="https://skillicons.dev/icons?i=kubernetes,gcp,aws,terraform,ansible,githubactions,prometheus,grafana,linux,astro&perline=10" alt="Cloud, infrastructure and observability">
 </p>
 
-**Also:** BigQuery · Spark · Hadoop · OpenAPI · htmx · polars · numba · statsmodels · NLP · ML classification · time-series statistics · integer programming · AI-assisted engineering (agent-ready repos with per-package guides and project skills)
+**Also:** BigQuery · Spark · Hadoop · OpenAPI · htmx · vanilla ES modules · polars · numba · statsmodels · NLP · ML classification · time-series statistics · integer programming · AI-assisted engineering (agent-ready repos with per-package guides and project skills)
 
 ## 🗂️ More projects
 

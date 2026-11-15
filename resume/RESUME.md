@@ -65,7 +65,7 @@ Backend and platform engineer with 8 years of experience building and operating 
 - Built and run a production web app, in private beta with real league teams, for attendance, legal-lineup checks, and match-night tools. Rosters, skill levels, and schedules sync from the APA's GraphQL API every 15 minutes
 - Hardened it for the public internet: APA sign-in without storing passwords, hashed session tokens, a strict Content Security Policy, same-origin checks on writes, rate limiting, and parameterized SQL
 - Made CI the deploy gate: staticcheck, race-enabled tests against Postgres with a coverage floor, govulncheck, Docker builds, and headless-Chrome smoke tests, with separate dev and production environments
-- Migrated it from a Python Discord bot to a ~29 MB distroless Go service, with parity tests against the original outputs and 21 architecture decision records
+- Moved it from a Go Discord bot with Python helpers to an all-Go web app in a ~29 MB distroless image, with parity tests against the original outputs and 21 architecture decision records
 
 ### Shelved — daily word puzzle for BookTok readers | 2026 – Present
 

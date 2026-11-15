@@ -40,7 +40,7 @@ Captains share one link per team. Players tap their name once, answer In, Late, 
 - **Production service, owned end to end:** a single Go binary that runs the web app, the background APA sync, and the demo, backed by Postgres with embedded migrations. It deploys to Railway with separate dev and production environments.
 - **Built to be safe on the public internet:** captains sign in with APA credentials, but passwords are never stored. Session tokens are kept only as hashes. The app uses a strict CSP with no inline script, same-origin checks on every write, per-IP rate limits, and parameterized SQL only.
 - **CI is the deploy gate:** gofmt, vet, staticcheck, race-enabled tests against a real Postgres with a coverage floor, govulncheck, a Docker build, and a headless-Chrome smoke test. Railway deploys only after CI passes, and CI also enforces the branching policy.
-- **Grown from a Discord bot:** it started in 2022 as a Python Discord bot and became a Go web app. The original formulas were ported and parity-tested against the old outputs, and the image shrank from Python + Chromium to a ~29 MB distroless binary. 21 architecture decision records document why things are the way they are.
+- **Grown from a Discord bot:** it started in 2022 as a Go Discord bot that leaned on Python for the APA login and the skill math. Now it's a web app with no Python left. The original formulas were ported to Go and parity-tested against the old outputs, and the image shrank from Python + Chromium to a ~29 MB distroless binary. 21 architecture decision records document why things are the way they are.
 
 ### 📚 Shelved: a daily word puzzle for BookTok readers
 

@@ -9,7 +9,7 @@
   <a href="mailto:berryscottr@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20hello-f59e0b?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
 </p>
 
-<p align="center"><i>Hello there.</i> I build backend systems that stay up and data work that holds up under scrutiny.</p>
+<p align="center"><i>Hello there.</i> I'm a backend engineer with a focus on data integrity and reliable processes.</p>
 
 |  |  |  |  |
 |:---:|:---:|:---:|:---:|

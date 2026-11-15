@@ -40,7 +40,7 @@ Captains share one link per team. Players tap their name once, answer In, Late, 
 - **Production service, owned end to end:** a single Go binary that runs the web app, the background APA sync, and the demo, backed by Postgres with embedded migrations. It deploys to Railway with separate dev and production environments.
 - **Built to be safe on the public internet:** captains sign in with APA credentials, but passwords are never stored. Session tokens are kept only as hashes. The app uses a strict CSP with no inline script, same-origin checks on every write, per-IP rate limits, and parameterized SQL only.
 - **CI is the deploy gate:** gofmt, vet, staticcheck, race-enabled tests against a real Postgres with a coverage floor, govulncheck, a Docker build, and a headless-Chrome smoke test. Railway deploys only after CI passes, and CI also enforces the branching policy.
-- **Evolved, not rewritten:** it started in 2022 as a Python Discord bot and became a Go web app. The original formulas were ported and parity-tested against the old outputs, and the image shrank from Python + Chromium to a ~29 MB distroless binary. 21 architecture decision records document why things are the way they are.
+- **Grown from a Discord bot:** it started in 2022 as a Python Discord bot and became a Go web app. The original formulas were ported and parity-tested against the old outputs, and the image shrank from Python + Chromium to a ~29 MB distroless binary. 21 architecture decision records document why things are the way they are.
 
 ### 📚 Shelved: a daily word puzzle for BookTok readers
 
@@ -76,12 +76,12 @@ A free daily puzzle: sixteen tiles, usually character names, hide four groups of
   <img src="https://img.shields.io/badge/Astro-BC52EE?style=flat-square&logo=astro&logoColor=white" alt="Astro">
 </p>
 
-Every week the engine scans 1,000 to 3,000 liquid US stocks for pairs whose prices are cointegrated. It trades their temporary divergences in a minute-bar simulator with realistic costs. Above all, it's an exercise in **not fooling yourself** with a backtest.
+Every week the engine scans 1,000 to 3,000 liquid US stocks for pairs whose prices are cointegrated. It trades their temporary divergences in a minute-bar simulator with realistic costs. The main goal was to avoid fooling myself with a good-looking backtest.
 
 - **Whole-market discovery:** vectorized Engle-Granger and ADF tests, verified against statsmodels, run over the market every week. Data comes from Alpaca (SIP minute bars) and SEC EDGAR, stored in Parquet with resumable, validated ingest.
-- **Honest validation:** a walk-forward design with no look-ahead (fills land on the next bar), a tune / validation / holdout split, and a trial ledger covering all **4,699 configurations** tried. That ledger feeds a Deflated Sharpe ratio and the probability of backtest overfitting (PBO). Parameters were chosen as interior points of profitable plateaus, never as the single best point.
-- **A pre-registered holdout, reported straight:** the final year was read once, against pass bands committed in advance. The result (excess Sharpe 0.16, "weak but positive") is published as-is, not tuned away.
-- **Engineering discipline:** results are bit-identical for any worker count, invariant checks run on every result path, every known pitfall has a guard and a test (140+ tests), and every derived artifact carries a provenance fingerprint.
+- **Guarding against overfitting:** a walk-forward design with no look-ahead (fills land on the next bar), a tune / validation / holdout split, and a trial ledger covering all **4,699 configurations** tried. That ledger feeds a Deflated Sharpe ratio and the probability of backtest overfitting (PBO). Parameters were chosen as interior points of profitable plateaus, never as the single best point.
+- **A pre-registered holdout:** I set pass bands in advance and read the final year once. The result was an excess Sharpe of 0.16, "weak but positive," and that's the number published here.
+- **Reproducible:** results are bit-identical for any worker count, invariant checks run on every result path, every known pitfall has a guard and a test (140+ tests), and every derived artifact carries a provenance fingerprint.
 
 <sub>Simulated research results, not live trading or an offering. The codebase is private; the results site shows aggregates only.</sub>
 
